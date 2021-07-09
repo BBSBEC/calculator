@@ -81,7 +81,6 @@ fas.addEventListener("click", function () {
     })
 })
 document.addEventListener('keydown', function (e) {
-    console.log(e.key);
     if (!isNaN(e.key)) {
         value += e.key;
         displayvalue(' '+value);
