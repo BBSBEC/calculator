@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.fa-moon{
+    font-size:x-large;
+    color: black;
+}
+.fa-sun{
+    font-size: x-large;
+    color:white;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: Varela Round, sans-serif;
+}
+#cantainer{
+    background-color: white;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    height: 31rem;
+    width: 20rem;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+}
+.input #display{
+    background-color: #333333;
+    width: 65%;
+    
+}
+input{
+    cursor: pointer;
+    font-size: 150%;
+    width: 70px;
+    height: 80px;
+    margin:8px 8px 8px 10px;
+    border-radius: 10px;
+    
+    border-width: 0px;
+}
+.input #cnl{
+    margin-left: 2px;
+    background-color: #3366ff;
+}
+.btn--dark{
+    background-color:#333333;
+    color: white;
+}
+.btn--white{
+    background-color: white;
+    color: black;
+}
+.fa-instagram,.fa-git,.fa-envelope,.fa-telegram{
+    font-size: 60px;
+}
+.footer{
+    margin-top: 34px;
+}
+h1{
+    margin-top: 24px;
+}
