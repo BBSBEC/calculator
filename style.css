@@ -30,7 +30,6 @@ body{
 .input{
     width: 100%;
     height: 100%;
-    margin: 0px;
 }
 .input #display{
     background-color: #333333;
@@ -41,10 +40,11 @@ body{
 }
 input{
     cursor: pointer;
-    font-size: 150%;
+    font-size: 110%;
     width: 17%;
-    height: 80px;
-    margin:8px 8px 25px 10px;
+    height: 70px;
+    margin-right: 7px;
+    margin-bottom: 10px;
     border-radius: 10px;
     
     border-width: 0px;
