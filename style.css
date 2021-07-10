@@ -24,7 +24,6 @@ body{
     background-color: white;
     box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
     height: 31rem;
-    width: 20rem;
     display: inline-block;
     border-radius: 50px;
     margin-top: 50px;
@@ -32,16 +31,18 @@ body{
 .input{
     width: 100%;
     height: 100%;
+    margin: 0px;
 }
 .input #display{
     background-color: #333333;
-    width: 65%;
+    width: 60%;
+    margin-left: 0px;
     
 }
 input{
     cursor: pointer;
     font-size: 150%;
-    width: 70px;
+    width: 17%;
     height: 80px;
     margin:8px 8px 8px 10px;
     border-radius: 10px;
@@ -50,6 +51,7 @@ input{
 }
 .input #cnl{
     margin-left: 2px;
+    margin-right: 0px;
     background-color: #3366ff;
 }
 .btn--dark{
